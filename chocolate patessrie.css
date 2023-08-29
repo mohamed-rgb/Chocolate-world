@@ -1,0 +1,135 @@
+body{
+    background-color: #F1BD82;
+}
+
+.logo-container{  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: #964F37;*/
+}
+
+.img-logo{
+    height: 20%;
+    width: 17%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*.underline {
+    width: 2.8rem;
+    height: 0.25rem;
+    background: #964F37;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+}*/
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+/*tailwind  CSS button */
+.btn-38 {
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-family: monospace;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+    padding: .75rem 2rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-left: 1rem;
+}
+
+.btn-38:hover {
+    background-color: #964F37 ;
+}
+
+/*.button-38:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.button-38:focus-visible {
+    box-shadow: none;
+}*/
+
+.section-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    gap: 3rem 2rem;
+    justify-items: center;
+}
+
+.menu-item {
+    display: grid;
+    gap: 1rem 2rem;
+    max-width: 25rem;
+}
+
+.photo{
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    border: 0.27rem solid #964F37;
+    border-radius: 1rem;
+}
+
+.item-info header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.13rem dotted #000;
+    font-size: larger;
+    font-weight: 700;
+}
+.item-info h4 {
+    margin-bottom: 0.5rem;
+}
+
+.price {
+    color: #82B6F1;
+}
+
+.item-text {
+    margin-bottom: 0;
+    padding-top: 1rem;
+    font-size: large;
+    font-weight: 600;
+}
+
+
+@media screen and (min-width: 768px) {
+.menu-item {
+    grid-template-columns: 225px 1fr;
+    gap: 0 1.25rem;
+    max-width: 40rem;
+}
+.photo {
+    height: 175px;
+}
+}
+@media screen and (min-width: 1200px) {
+.section-center {
+    width: 95vw;
+    grid-template-columns: 1fr 1fr;
+}
+
+    .photo {
+    height: 150px;
+}
+}
