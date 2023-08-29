@@ -42,7 +42,7 @@ const menu = [
 },
 {
     id: 6,
-    title: "Dark chocolate mousse torte ",
+    title: "Dark chocolate mousse",
     category: "Tortes",
     price: 300,
     img: "dark chocolate mousse torte 2.jpeg",
@@ -82,7 +82,7 @@ const menu = [
 },
 {
     id: 11,
-    title: "Chocolate and rasperry gateaux ",
+    title: "Chocolate and rasperry",
     category: "Gateaux",
     price: 95,
     img: "chocolate and rasperry gateaux 3.jpg",
