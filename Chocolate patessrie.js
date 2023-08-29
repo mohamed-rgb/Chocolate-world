@@ -27,7 +27,7 @@ const menu = [
 {
     id: 4,
     title: "Black and white cookies ",
-    category: "Chocolates",
+    category: "Cookies",
     price: 360,
     img: "black and white cookies 1.png",
     desc: `The taste of black and white cookies is quite sweet and has a rich, creamy texture. The flour and sugar combine to create a smooth, creamy batter that is topped with a thin layer of chocolate or butter. The combination of flour and sugar also helps to keep the cookies moist and prevent them from sticking together.`,
@@ -58,7 +58,7 @@ const menu = [
 },
 {
     id: 8,
-    title: "Peanut butter blossoms cookies ",
+    title: "Peanut butter cookies ",
     category: "Cookies",
     price: 350,
     img: "peanut butter blossoms cookies 2.jpg",
@@ -86,7 +86,7 @@ const menu = [
     category: "Gateaux",
     price: 95,
     img: "chocolate and rasperry gateaux 3.jpg",
-    desc: `The taste of a chocolate cake is rich and sweet, with a hint of vanilla and caramel. The texture is soft and creamy, with a slight crunch and a hint of cocoa. The taste of a raspberry cake is warm and fruity, with a hint of spice and sweetness. The texture is soft and creamy, with a slight crunch and a hint of cocoa.`,
+    desc: `The taste of a chocolate cake is rich and sweet, with a hint of vanilla and caramel. The texture is soft and creamy, with a slight crunch and a hint of cocoa. The taste of a raspberry cake is warm and fruity.`,
 },
 {
     id: 12,
@@ -106,7 +106,7 @@ const menu = [
 },
 {
     id: 14,
-    title: "Peach jelly cream cheese torte",
+    title: "Peach jelly cheese torte",
     category: "Tortes",
     price: 430,
     img: "peach jelly cream cheese torte 4.jpg",
@@ -138,7 +138,7 @@ const menu = [
 },
 {
     id: 18,
-    title: "Carmel chocolate mousse gateaux ",
+    title: "Carmel chocolate mousse ",
     category: "Gateaux",
     price: 60,
     img: "carmel chocolate mousse gateaux 5.jpg",
@@ -166,7 +166,7 @@ const menu = [
     category: "Gateaux",
     price: 40,
     img: "gateaux 5.jpg",
-    desc: `The White Forest cake is a delicious and unique dessert that combines the sweetness of white forest flower with the richness of vanilla and chocolate. The cake is soft and moist, with a crisp and creamy texture that is perfect for sharing with friends and family.`,
+    desc: `The White Forest cake is a delicious and unique dessert that combines the sweetness of white forest flower with the richness of vanilla and chocolate. The cake is soft and moist, with a crisp and creamy texture.`,
 }
 ];
 
